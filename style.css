@@ -1,0 +1,141 @@
+
+.body__main {
+    background-color: #E1D4B7;
+}
+.main__breakfasts {
+}
+.breakfasts__title {
+    font-size: 40px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 64px;
+
+}
+.breakfasts__row1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.row1__tablet1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Amatic SC", sans-serif;
+    
+}
+.tablet1__title {
+    font-size: 40px;
+    padding: 30px;
+    font-family: "Amatic SC", sans-serif;
+}
+.tablet1__recept {
+    width: 330px;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+.tablet1__recept:hover{
+    transform: scale(1.15);
+}
+
+@media(max-width:1200px){
+    .tablet1__recept{
+        width: 250px;
+    }
+}
+@media(max-width:850px){
+    .breakfasts__row1{
+        flex-direction: column;
+    }
+    .tablet1__recept{
+        width: 500px;
+    }
+}
+
+@media(max-width:600px){
+    .tablet1__recept{
+        width: 250px;
+    }
+}
+
+
+
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zagolovok{
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 50px;
+}
+.pancake__title{
+    font-size: 56px;
+    padding: 30px;
+    font-family: "Amatic SC", sans-serif;
+}
+.pancake{
+    width: 660px;
+    border-radius: 50px;
+}
+.products{
+    padding-left: 500px;
+}
+.recept{
+    font-family: "Cormorant Infant", serif;
+    font-size: 42px;
+}
+
+
+
+
+.steps{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+.steps__title{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 56px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.steps__pictures{
+    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px
+}
+.pictures{
+    display: flex;
+    flex-direction: row;
+}
+.pictures__img{
+    width: 440px;
+    border-radius: 50px;
+}
+.pictures__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+.pictures__str{
+    font-family: "Cormorant Infant", serif;
+    font-size: 42px;
+
+}
+
+
+
